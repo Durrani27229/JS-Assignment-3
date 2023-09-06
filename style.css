@@ -1,0 +1,149 @@
+
+
+.list{
+    /* border-bottom: 1px solid; */
+    /* box-shadow: 3px 3px 5px grey; */
+    font-size: 30px;
+    border-radius: 10px;
+    /* padding: 5px; */
+    /* margin: 5px; */
+}
+li a {
+    text-decoration: none;
+}
+
+li a:hover{
+    transition: all .5s ease;
+    font-size: larger;
+}
+
+
+
+
+
+/* ================== Calculator Start=================== */
+
+
+.calculator{
+    /* border: 2px solid grey; */
+    border-radius: 40px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #415454;
+    padding: 10px;
+    margin: 0px auto;
+}
+#result{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 350px;
+    padding: 20px 20px;
+    font-size: 30px;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    padding: 14px 35px;
+    margin: 5px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-size: larger;
+    box-shadow: 2px 2px 5px grey;
+    transition: all .5s ease;
+    border: none;
+}
+/* .clear{
+    border: 2px solid black;
+    width: 390px;
+} */
+.btn-clear{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 14px 184px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin: 5px;
+    /* width: 360px; */
+
+}
+.btn-clear:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-size: larger;
+    box-shadow: 2px 2px 5px grey;
+    transition: all .5s ease;
+    border: none;
+}
+
+/* ====================Calculator End=========================== */
+
+
+
+
+/* ===================== Stop Watch Start====================== */
+
+.container{
+    background-color: #7c7c7c;
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    margin: auto auto;
+    
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.watch-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    /* border-radius: 30px; */
+    /* background-color: rgb(246, 88, 15); */
+}
+.txt{
+    font-size: 30px;
+}
+
+.btn-watch{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 5px;
+}
+.btn-watch:hover{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    box-shadow: 2px 2px 5px grey;
+    transition: all .5s ease;
+}
